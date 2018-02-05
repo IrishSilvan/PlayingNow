@@ -20,13 +20,8 @@
   "default_icon": {
     "32": "icons/icon.svg"
   },
-  "default_title": "Whereami?",
-  "default_popup": "popup/geo.html",
-  "theme_icons": [{
-    "light": "icons/icon-light.svg",
-    "dark": "icons/icon.svg",
-    "size": 32
-  }]
+  "default_title": "What Playing Now?",
+  "default_popup": "popup/menu.html"
 }
 
 }
