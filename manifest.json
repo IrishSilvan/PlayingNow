@@ -1,0 +1,32 @@
+{
+
+"manifest_version": 2,
+"name": "Playing Now",
+"version": "1.0",
+
+"description": "Export name of playing now song in JSON/TXT file and album cover",
+"homepage_url": "https://github.com/irishsilvan/playingnow",
+"icons": {
+  "48": "icons/icon.svg"
+},
+
+"permissions": [
+  "tabs",
+  "background"
+],
+
+"browser_action": {
+  "browser_style": true,
+  "default_icon": {
+    "32": "icons/icon.svg"
+  },
+  "default_title": "Whereami?",
+  "default_popup": "popup/geo.html",
+  "theme_icons": [{
+    "light": "icons/icon-light.svg",
+    "dark": "icons/icon.svg",
+    "size": 32
+  }]
+}
+
+}
