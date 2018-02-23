@@ -10,7 +10,8 @@
   },
 
   "permissions": [
-    "tabs"
+    "tabs",
+    "notifications"
   ],
 
   "background": {
@@ -22,7 +23,7 @@
     "default_icon": {
       "32": "icons/icon.svg"
     },
-    "default_title": "What Playing Now?",
+    "default_title": "Playing Now Settings",
     "default_popup": "popup/menu.html"
   }
 
